@@ -10050,7 +10050,7 @@ return A.L($async$a26,r)},
 b0E(a,b){var s=B.tA.i(0,a)
 s.toString
 if(a==="SH"){A.a0S("Host parameter must be defined when using Self-Hosted App Key. Tracking will be disabled.")
-return null}return A.e8(s+"/api/v0/event",0,null)},
+return null}return A.e8(s+"/api1/v0/event",0,null)},
 aOO(){return B.e.k(B.e.Y(Date.now(),1000))+B.d.kZ(B.e.k($.aWZ().nK(1e8)),8,"0")},
 a24:function a24(){},
 Db(){var s=0,r=A.M(t.gv),q,p,o,n,m,l,k
