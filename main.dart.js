@@ -11999,7 +11999,7 @@ s=$.aM().a2(0,q)
 r=$.b7()
 return s.ms(!0,!1,b.j(new A.c(r,new A.aFN(),r.$ti.h("c<m.0,i>")),t.y))},
 bbO(a,b,c){if(a===0)return A.A(B.L8,B.f,2,b,!1)
-return A.A(["auto ",B.n," per ",B.k," ",A.aVx(a,c)," \u2192 ",A.aVx(a+1,c)],B.f,2,b,!1)},
+return A.A(["自动 ",B.n," 每 ",B.k," ",A.aVx(a,c)," \u2192 ",A.aVx(a+1,c)],B.f,2,b,!1)},
 bbd(a){var s=5+a*(1+B.e.Y(a-1,2)/2)
 return A.a([new A.e(A.o(s,B.h,!1),A.r(s),B.h)],t.W)},
 baA(a,b){J.bd(a.t(0,$.y9().gL(),t.yf),new A.aDR(b))},
@@ -12018,7 +12018,7 @@ s=new A.e(A.o(s,p,!1),A.r(s),p).u(0,r)
 q=B.e.a6(a,5)
 return s.F(0,new A.e(A.o(q,p,!1),A.r(q),p).u(0,2).a2(0,5).u(0,r))},
 bbP(a,b,c){if(a===0)return A.A(B.KL,B.f,2,b,!1)
-return A.A(["hold ",B.l," action  \xd7",A.aLX(a).F(0,1)," \u2192 \xd7",A.aLX(a+1).F(0,1),""],B.f,2,b,!1)},
+return A.A(["按下 ",B.l," 动作  \xd7",A.aLX(a).F(0,1)," \u2192 \xd7",A.aLX(a+1).F(0,1),""],B.f,2,b,!1)},
 bbe(a){var s=7+a*(3+B.e.Y(a,5))
 return A.a([new A.e(A.o(s,B.h,!1),A.r(s),B.h)],t.W)},
 baB(a,b){J.bd(a.t(0,$.dP().gL(),t.Fg),new A.aDJ(b))},
@@ -12140,7 +12140,7 @@ return A.a([new A.e(A.o(r,B.r,!1),A.r(r),B.r),s[0]],t.W)},
 bdg(a){var s=$.ai()
 return a.j(new A.c(s,new A.aFf(),s.$ti.h("c<m.0,i>")),t.y)},
 bdz(a,b){var s=1e39
-return A.A(["Reach ",new A.e(A.o(s,null,!1),A.r(s),null),B.n],B.f,2,a,!1)},
+return A.A(["达到 ",new A.e(A.o(s,null,!1),A.r(s),null),B.n],B.f,2,a,!1)},
 aDE:function aDE(a){this.a=a},
 aGb:function aGb(){},
 aFw:function aFw(){},
@@ -12151,7 +12151,7 @@ for(s=0,r=0;r<15;++r)s+=Math.pow(0.5,B.e.Y(a+r,15))
 q=s/15
 return new A.e(A.o(q,null,!1),A.r(q),null)},
 bbu(a,b,c){var s=A.aM2(a),r=2+B.e.Y(a,30),q=$.b7(),p=q.$ti.h("c<m.0,i>"),o=t.y
-return A.A([B.k,"  cost growth \xd7",s.kN(r,c.j(new A.c(q,new A.aEk(),p),o))," \u2192 \xd7",A.aM2(a+1).kN(r,c.j(new A.c(q,new A.aEl(),p),o))],B.f,2,b,!1)},
+return A.A([B.k,"  成本生长 \xd7",s.kN(r,c.j(new A.c(q,new A.aEk(),p),o))," \u2192 \xd7",A.aM2(a+1).kN(r,c.j(new A.c(q,new A.aEl(),p),o))],B.f,2,b,!1)},
 bag(a,b){var s=$.dJ(),r=t._g
 J.bd(a.t(0,s.gL(),r),new A.aDD(b))
 a.t(0,s.gL(),r).nZ()},
@@ -12165,7 +12165,7 @@ bcO(a){if(a===0)return A.a([new A.e(A.o(50,B.h,!1),A.r(50),B.h),new A.e(A.o(240,
 return A.a([A.aUC(a-1+15)[0]],t.W)},
 bdh(a){var s=$.ai()
 return a.j(new A.c(s,new A.aFe(),s.$ti.h("c<m.0,i>")),t.y)},
-bdA(a,b){return A.A(["Reach ",new A.e(A.o(1e7,null,!1),A.r(1e7),null),B.r],B.f,2,a,!1)},
+bdA(a,b){return A.A(["达到 ",new A.e(A.o(1e7,null,!1),A.r(1e7),null),B.r],B.f,2,a,!1)},
 aEk:function aEk(){},
 aEl:function aEl(){},
 aDD:function aDD(a){this.a=a},
@@ -12328,8 +12328,8 @@ case 3:return A.a([new A.e(A.o(17,B.k,!1),A.r(17),B.k)],t.W)
 case 4:return A.a([new A.e(A.o(22,B.k,!1),A.r(22),B.k)],t.W)
 case 5:default:return A.a([new A.e(A.o(28,B.k,!1),A.r(28),B.k),new A.e(A.o(20,B.h,!1),A.r(20),B.h)],t.W)}},
 bbz(a,b,c){if(a>=6)return A.A(B.IE,B.f,2,b,!1)
-if(a===5)return A.A(["automate ",B.jk[a]," actions"],B.f,2,b,!1)
-return A.A(["automate ",B.jk[a]],B.f,2,b,!1)},
+if(a===5)return A.A(["自动 ",B.jk[a]," actions"],B.f,2,b,!1)
+return A.A(["自动 ",B.jk[a]],B.f,2,b,!1)},
 bal(a,b){var s,r,q=0
 while(!0){if(!(q<b&&q<6))break
 s=$.bY().gL()
@@ -12382,7 +12382,7 @@ aFc:function aFc(){},
 aUz(a){var s=1e19
 return A.a([new A.e(A.o(s,B.l,!1),A.r(s),B.l).u(0,new A.e(A.o(50,null,!1),A.r(50),null).aO(a)),new A.e(A.o(40,B.i,!1),A.r(40),B.i).u(0,a)],t.W)},
 bbB(a,b,c){var s=$.aIj()
-return A.A(["action time ",s.F(0,20*a).nW(!0)," \u2192 ",s.F(0,20*(a+1)).nW(!0)],B.f,2,b,!1)},
+return A.A(["动作时间 ",s.F(0,20*a).nW(!0)," \u2192 ",s.F(0,20*(a+1)).nW(!0)],B.f,2,b,!1)},
 ban(a,b){J.bd(a.t(0,$.bY().gL(),t.rR),new A.aDB(b))},
 bfM(a){var s=$.ai()
 return a.j(new A.c(s,new A.aG6(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12409,7 +12409,7 @@ aFb:function aFb(){},
 aUA(a){var s=1e24
 return A.a([new A.e(A.o(s,B.n,!1),A.r(s),B.n).u(0,new A.e(A.o(50,null,!1),A.r(50),null).aO(a)),new A.e(A.o(20,B.i,!1),A.r(20),B.i).u(0,1+a)],t.W)},
 bbD(a,b,c){var s=$.aIk()
-return A.A(["upgrade time ",s.F(0,a*40).nW(!0)," \u2192 ",s.F(0,(a+1)*40).nW(!0)],B.f,2,b,!1)},
+return A.A(["升级时间 ",s.F(0,a*40).nW(!0)," \u2192 ",s.F(0,(a+1)*40).nW(!0)],B.f,2,b,!1)},
 bap(a,b){J.bd(a.t(0,$.bY().gL(),t.rR),new A.aDA(b))},
 bfO(a){var s=$.ai()
 return a.j(new A.c(s,new A.aG7(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12436,7 +12436,7 @@ s=m.u(0,p===1?2.5:1)
 return A.a([new A.e(A.o(5000,B.r,!1),A.r(5000),B.r).u(0,new A.e(A.o(6,q,!1),A.r(6),q).aO(l)).u(0,new A.e(A.o(2,q,!1),A.r(2),q).aO(p)),s],t.W)},
 bbE(a,b,c){var s=null
 if(a===0)return A.A(B.Jo,B.f,2,b,!1)
-return A.A(["free auto time ",new A.e(A.o(30,s,!1),A.r(30),s).u(0,a).nW(!0)," \u2192 ",new A.e(A.o(30,s,!1),A.r(30),s).u(0,a+1).nW(!0)],B.f,2,b,!1)},
+return A.A(["免费自动时间 ",new A.e(A.o(30,s,!1),A.r(30),s).u(0,a).nW(!0)," \u2192 ",new A.e(A.o(30,s,!1),A.r(30),s).u(0,a+1).nW(!0)],B.f,2,b,!1)},
 baq(a,b){J.bd(a.t(0,$.bY().gL(),t.rR),new A.aDz(b))},
 aVz(a){var s=$.ai()
 return a.j(new A.c(s,new A.aG5(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12453,7 +12453,7 @@ return A.a([s[0],s[1]],t.W)},
 bdi(a){var s=$.ai()
 return a.j(new A.c(s,new A.aF9(),s.$ti.h("c<m.0,i>")),t.y)},
 bdB(a,b){var s=1e10
-return A.A(["Reach ",new A.e(A.o(s,null,!1),A.r(s),null),B.r],B.f,2,a,!1)},
+return A.A(["达到 ",new A.e(A.o(s,null,!1),A.r(s),null),B.r],B.f,2,a,!1)},
 aDz:function aDz(a){this.a=a},
 aG5:function aG5(){},
 aFr:function aFr(){},
@@ -12757,7 +12757,7 @@ if(q.bD(0,$.ab()))return""
 s=$.aM().a2(0,q)
 r=$.b7()
 return s.ms(!0,!1,b.j(new A.c(r,new A.aFO(),r.$ti.h("c<m.0,i>")),t.y))},
-bbL(a,b,c){return A.A(["active ",B.n,"  ",A.aVy(a,c)," \u2192 ",A.aVy(a+1,c)],B.f,2,b,!1)},
+bbL(a,b,c){return A.A(["激活 ",B.n,"  ",A.aVy(a,c)," \u2192 ",A.aVy(a+1,c)],B.f,2,b,!1)},
 bax(a,b){J.bd(a.t(0,$.df().gL(),t.W7),new A.aDN(b))},
 bfV(a){var s=$.ai()
 return a.j(new A.c(s,new A.aGi(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -13673,7 +13673,7 @@ if(c){$.a7s=J.b8(l,"version")
 for(c=k,a=c.length,b=0;b<c.length;c.length===a||(0,A.O)(c),++b){g=c[b]
 a0=$.a7s
 a0.toString
-g.pU(a0)}}a4.$1("Save imported")
+g.pU(a0)}}a4.$1("存档已导入")
 p=2
 s=6
 break
@@ -13682,7 +13682,7 @@ a3=o
 f=A.ag(a3)
 try{for(c=$.dj.length,b=0;b<$.dj.length;$.dj.length===c||(0,A.O)($.dj),++b){e=$.dj[b]
 J.bd(e,new A.a7q(e))}}catch(a5){d=A.ag(a5)
-a4.$1("Critical error. Please export save and reload app ("+A.l(d)+")")}a4.$1("Import failed: "+A.l(f))
+a4.$1("严重错误。请导出保存并重新加载游戏 ("+A.l(d)+")")}a4.$1("导入失败: "+A.l(f))
 s=6
 break
 case 3:s=2
@@ -13715,12 +13715,12 @@ break
 case 3:q=2
 f=p
 l=A.ag(f)
-a.$1("Error exporting: "+A.l(l))
+a.$1("导出出错: "+A.l(l))
 s=5
 break
 case 2:s=1
 break
-case 5:a.$1("Export successful")
+case 5:a.$1("导出成功")
 return A.K(null,r)
 case 1:return A.J(p,r)}})
 return A.L($async$a7n,r)},
@@ -50974,7 +50974,7 @@ a4(a,b){var s,r,q=this
 if(A.b5L(b))return B.m
 s=$.y3()
 r=t.y
-if(!b.j(s,r))return A.A(["RUN AUTO FOR ",b.j($.aNx(),t.F).nW(!0).toUpperCase()],B.f,2,A.aKN(a).cF(-4).aC(A.cZ(q.e,B.u,0.125)),!1)
+if(!b.j(s,r))return A.A(["运行自动化针对 ",b.j($.aNx(),t.F).nW(!0).toUpperCase()],B.f,2,A.aKN(a).cF(-4).aC(A.cZ(q.e,B.u,0.125)),!1)
 if(!(b.j($.aIH(),r)&&b.j(s,r)))return A.bI("赞美太阳",A.aKN(a).aC(q.e),null)
 return A.A(["+",q.f.F(0,1)," ",B.h],B.f,2,A.aKN(a).aC(q.e),!1)}}
 A.WA.prototype={
@@ -51222,7 +51222,7 @@ q=t.y
 if(!b.j(r,q)){r=$.b7()
 q=s.m6(b.j(new A.c(r,new A.ayU(),r.$ti.h("c<m.0,i>")),q))
 s=!s.l(0,$.aM())?"S":""
-return A.A(["砍木头 ",q.toUpperCase()," 次",s],B.f,2,A.aKM(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIF(),q)&&b.j(r,q)))return A.bI("赞美硬币",A.aKM(a).aC(p.e),null)
+return A.A(["砍木头 ",q.toUpperCase()," 时间",s],B.f,2,A.aKM(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIF(),q)&&b.j(r,q)))return A.bI("赞美硬币",A.aKM(a).aC(p.e),null)
 return A.A(["+",p.f.F(0,1)," ",B.h],B.f,2,A.aKM(a).aC(p.e),!1)}}
 A.ayU.prototype={
 $1(a){return a.b},
@@ -51328,7 +51328,7 @@ s=$.y0()
 r=t.y
 if(!b.j(s,r)){s=b.j($.aN8(),t.F)
 q=$.b7()
-return A.A(["REACH ",s.m6(b.j(new A.c(q,new A.ayR(),q.$ti.h("c<m.0,i>")),r))," ",B.l],B.f,2,A.aJh(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIr(),r)&&b.j(s,r)))return A.bI("BLESS RAINS",A.aJh(a).aC(p.e),null)
+return A.A(["达到 ",s.m6(b.j(new A.c(q,new A.ayR(),q.$ti.h("c<m.0,i>")),r))," ",B.l],B.f,2,A.aJh(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIr(),r)&&b.j(s,r)))return A.bI("BLESS RAINS",A.aJh(a).aC(p.e),null)
 return A.A(["+",p.f.F(0,1)," ",B.h],B.f,2,A.aJh(a).aC(p.e),!1)}}
 A.ayR.prototype={
 $1(a){return a.b},
@@ -53437,11 +53437,11 @@ r=A.Y(a).p2.f
 if(r==null)r=null
 else r=r.cF(s?-2:0)
 if(r==null)r=B.y
-r=A.A(["Soul Bond".toUpperCase()],B.c4,2,r,!1)
+r=A.A(["灵魂纽带".toUpperCase()],B.c4,2,r,!1)
 q=["+",10,"% "]
 B.b.P(q,p)
-q.push(" per ")
-q.push(s?"prestiged ":"")
+q.push(" 每 ")
+q.push(s?"声望 ":"")
 q.push(B.h)
 q=A.A(q,B.f,2,this.Ji(a,s),!1)
 return A.bA(A.a([B.D,r,B.K,q,!s?B.m:A.A(["声望会重置所有进度".toUpperCase()],B.f,2,this.Ji(a,!0).fX(B.DC,2),!1),B.K],t.p),B.p,B.v,B.o)},
@@ -53510,15 +53510,15 @@ h=A.bI("AUTOMAGIC",A.HN(a),B.f)
 i=A.Y(a).p2.w
 i=i==null?null:i.p5(-2)
 if(i==null)i=B.y
-i=A.A(["Spend ",B.i," to automate ",g],B.f,2,i,!1)
+i=A.A(["花费 ",B.i," 以自动 ",g],B.f,2,i,!1)
 q=s.bD(0,0)?B.m:A.A(["(",s,")   "],B.f,2,j.ny(a).i1(A.mm(B.i),2),!1)
 p=$.bY()
 o=p.$ti.h("c<m.0,p>")
 n=t.N
-m=A.A(["actions last for ",b.j(new A.c(p,new A.a2K(),o),n)],B.f,2,j.ny(a),!1)
+m=A.A(["动作持续 ",b.j(new A.c(p,new A.a2K(),o),n)],B.f,2,j.ny(a),!1)
 l=r.bD(0,0)?B.m:A.A(["(",r,")   "],B.f,2,j.ny(a).i1(A.mm(B.i),2),!1)
 k=t.p
-return A.bA(A.a([B.D,h,B.K,i,A.b2(A.a([B.K,q,m,B.D,l,A.A(["upgrades last for ",b.j(new A.c(p,new A.a2L(),o),n)],B.f,2,j.ny(a),!1),B.K],k),B.be,B.v,B.o,B.J),B.K],k),B.p,B.v,B.o)},
+return A.bA(A.a([B.D,h,B.K,i,A.b2(A.a([B.K,q,m,B.D,l,A.A(["升级持续 ",b.j(new A.c(p,new A.a2L(),o),n)],B.f,2,j.ny(a),!1),B.K],k),B.be,B.v,B.o,B.J),B.K],k),B.p,B.v,B.o)},
 ny(a){var s=A.Y(a).p2.x
 s=s==null?null:s.ju(A.bL(B.i),-2,-2)
 return s==null?B.y:s}}
@@ -53635,7 +53635,7 @@ else{s=this.abu(o,b)
 r=A.Y(a).p2.w
 r=r==null?null:r.p5(-2)
 if(r==null)r=B.y
-r=A.A(["auto chop"," for each ",B.k," ",s],B.f,2,r,!1)
+r=A.A(["自动砍树"," 每 ",B.k," ",s],B.f,2,r,!1)
 s=r}if(n.bD(0,q))q=B.m
 else{q=this.abv(n,b)
 r=A.Y(a).p2.w
