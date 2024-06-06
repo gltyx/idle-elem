@@ -12096,8 +12096,8 @@ return A.a([new A.e(A.o(q.a,B.n,!1),q.b,B.n)],t.W)},
 bbs(a,b,c){var s,r=B.ji[B.e.a6(a,11)],q=$.b7(),p=q.$ti.h("c<m.0,i>"),o=t.y,n=A.jC(r*100,1,c.j(new A.c(q,new A.aEm(),p),o),!1)
 r=B.e.a6(a+1,11)
 s=A.jC(B.ji[r]*100,1,c.j(new A.c(q,new A.aEn(),p),o),!1)
-if(r!==0)return A.A(["scorch ",n,"% \u2192 ",s,"% current ",B.l],B.f,2,b,!1)
-return A.A(["scorch ",n,"% \u2192 ",s,"% current ",B.l,"\n",B.k," cost \xf7 ",2],B.f,2,b,!1)},
+if(r!==0)return A.A(["烧焦 ",n,"% \u2192 ",s,"% 当前 ",B.l],B.f,2,b,!1)
+return A.A(["烧焦 ",n,"% \u2192 ",s,"% 当前 ",B.l,"\n",B.k," 成本 \xf7 ",2],B.f,2,b,!1)},
 bae(a,b){var s=$.dJ(),r=t._g
 J.bd(a.t(0,s.gL(),r),new A.aDF(b))
 a.t(0,s.gL(),r).nZ()},
@@ -12193,8 +12193,8 @@ l=n.bu(0,r)?n:r
 return A.a([new A.e(A.o(l.a,B.l,!1),l.b,B.l)],t.W)}l=(o-2)*2/3
 return A.a([new A.e(A.o(l,B.k,!1),A.r(l),B.k),new A.e(A.o(5,B.i,!1),A.r(5),B.i).u(0,B.e.Y(o-14,5))],t.W)}},
 bbv(a,b,c){var s=$.a1d(),r=s[B.e.a6(a,10)],q=B.e.a6(a+1,10),p=s[q]
-if(q!==0)return A.A([B.l," 速度 ",r,"s \u2192 ",p,"s"],B.f,2,b,!1)
-else return A.A([B.l," 速度 ",r,"s \u2192 ",p,"s\n",B.l," 速率 \xd7",$.aOm()],B.f,2,b,!1)},
+if(q!==0)return A.A([B.l," 速度 ",r,"秒 \u2192 ",p,"秒"],B.f,2,b,!1)
+else return A.A([B.l," 速度 ",r,"秒 \u2192 ",p,"秒\n",B.l," 速率 \xd7",$.aOm()],B.f,2,b,!1)},
 bah(a,b){J.bd(a.t(0,$.dP().gL(),t.Fg),new A.aDM(b))},
 bfG(a){var s=$.c8()
 return a.j(new A.c(s,new A.aGh(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12709,9 +12709,9 @@ s=$.aM().a2(0,q)
 r=$.b7()
 return s.ms(!0,!1,b.j(new A.c(r,new A.aFP(),r.$ti.h("c<m.0,i>")),t.y))},
 bbK(a,b,c){var s
-if(a>=16)s=["auto ",B.n,"  ",A.aFM(a,c)]
+if(a>=16)s=["自动 ",B.n,"  ",A.aFM(a,c)]
 else{s=a+1
-s=a===0?["auto ",B.n," every ",A.aFM(s,c)]:["auto ",B.n,"  ",A.aFM(a,c)," \u2192 ",A.aFM(s,c)]}return A.A(s,B.f,2,b,!1)},
+s=a===0?["自动 ",B.n," 每 ",A.aFM(s,c)]:["自动 ",B.n,"  ",A.aFM(a,c)," \u2192 ",A.aFM(s,c)]}return A.A(s,B.f,2,b,!1)},
 baw(a,b){J.bd(a.t(0,$.df().gL(),t.W7),new A.aDO(b))},
 bfU(a){var s=$.ai()
 return a.j(new A.c(s,new A.aGj(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -29240,8 +29240,8 @@ e=B.bs.qu(e,f)
 s=f?$.b_N():$.b_L()
 if(!isFinite(a))return"forever"
 if(a<0)return""
-if(b&&a<1)return A.jC(1/a,1,d,!1)+"/s"
-if(b&&a===1)return"1/s"
+if(b&&a<1)return A.jC(1/a,1,d,!1)+"/秒"
+if(b&&a===1)return"1/秒"
 if(a<10&&c)return B.d.F(B.c.ac(a,1),s[0].b)
 if(a<60)return B.d.F(B.e.k(m),s[0].b)
 for(m=s.length,r=2;r<m;++r)if(a<s[r].a){m=r-1
@@ -52743,9 +52743,9 @@ n=o.aU(0,s)
 j=!q
 if(j&&!n)return B.m
 m=A.a([],t.nk)
-if(q)m.push(l.Dq(a,"GAIN",r,!n))
-if(n)m.push(l.Dq(a,"LOSS",o.u(0,$.kG()),j))
-if(q&&n)m.push(l.Dq(a,"NET",r.V(0,o),!0))
+if(q)m.push(l.Dq(a,"收入",r,!n))
+if(n)m.push(l.Dq(a,"支出",o.u(0,$.kG()),j))
+if(q&&n)m.push(l.Dq(a,"净利",r.V(0,o),!0))
 B.b.sR(B.b.gW(m).c,new A.jH(B.dG,k,k,A.A(B.KZ,B.f,2,A.xX(a).cF(-2),!1),k))
 return A.b2(A.a([B.yM,A.aSB(m,B.MV,B.yQ),B.D],t.p),B.p,B.v,B.o,k)},
 Dq(a,b,c,d){var s,r=null,q=A.Y(a).p2.w,p=q==null?r:q.cF(-2)
@@ -53488,7 +53488,7 @@ s=b.j(new A.c(n,new A.arI(),n.$ti.h("c<m.0,e>")),t.F)
 r=$.aM()
 q=A.aJX(B.l,b,r.aa(0),!0,!0)
 if(q.bu(0,100)){r=$.y7()
-q=A.aJX(B.l,b,r.aa(0),!0,!0)}n=A.bI("VOLATILE FLAME",A.HN(a),B.f)
+q=A.aJX(B.l,b,r.aa(0),!0,!0)}n=A.bI("不稳定的火焰",A.HN(a),B.f)
 p=m<=0?B.m:A.A(["失去 ",B.c.Z(m*100),"% 当前 ",B.l," 每 ",$.y7().ja()],B.f,2,A.aMU(a),!1)
 if(!(!q.l(0,$.ab())&&q.m6(!0)!=="0"))o=B.m
 else{o=A.Y(a).p2.w
@@ -53592,7 +53592,7 @@ if(s.aU(0,q))p.push(A.A([" \xd7",s],B.f,2,A.rj(a).aC(A.bL(B.r)),!1))
 if(s.aU(0,q)&&l.aU(0,r))p.push(A.A([" \u2192 ",n.u(0,s)],B.f,2,A.rj(a),!1))
 if(l.aU(0,r))p.push(A.A([" +",l.u(0,0.1).u(0,100).Z(0),"% "],B.f,2,A.rj(a).aC(A.bL(B.h)),!1))
 if(l.aU(0,r))p.push(A.A(["(",l,B.h,") "],B.f,2,A.rj(a).i1(A.mm(B.h),-2),!1))
-p.push(A.A([" \u2192 ",k," ",B.r,"/s"],B.f,2,A.rj(a).aC(A.bL(B.r)),!1))
+p.push(A.A([" \u2192 ",k," ",B.r,"/秒"],B.f,2,A.rj(a).aC(A.bL(B.r)),!1))
 r=A.b2(p,B.be,B.M,B.o,B.J)}return A.bA(A.a([B.D,o,B.K,m,r,B.K],t.p),B.p,B.v,B.o)}}
 A.ag5.prototype={
 $1(a){return a.b[5]},
@@ -53626,7 +53626,7 @@ if(a.bu(0,$.eq())){r=a.aa(0)
 q=$.b7()
 return"1 每 "+A.jC(1/r,2,b.j(new A.c(q,new A.aqP(),q.$ti.h("c<m.0,i>")),s),!1)+" 秒"}else{r=a.aa(0)
 q=$.b7()
-return A.jC(r,2,b.j(new A.c(q,new A.aqQ(),q.$ti.h("c<m.0,i>")),s),!1)+"/s"}},
+return A.jC(r,2,b.j(new A.c(q,new A.aqQ(),q.$ti.h("c<m.0,i>")),s),!1)+"/秒"}},
 a4(a,b){var s,r,q=$.y9(),p=t.F,o=b.j(new A.c(q,new A.aqT(),q.$ti.h("c<m.0,e>")),p),n=b.j($.aIz(),p)
 p=A.bI("Tree of Life".toUpperCase(),A.HN(a),B.f)
 q=$.ab()
@@ -96107,7 +96107,7 @@ B.H6=new A.r1(B.aY,null)
 B.c0=new A.ev(8,"COMPLETION")
 B.H7=new A.r1(B.c0,null)
 B.H8=new A.AE(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Hb=A.a(s(["达到 生长森林 等级 10"]),t.b)
+B.Hb=A.a(s(["达到 植树造林 等级 10"]),t.b)
 B.H9=A.a(s(["升级 ? ? ?"]),t.b)
 B.Ha=A.a(s(["transcend ",B.k,"\n",B.h," 存储 160 \u2192 ",1000]),t.b)
 B.nb=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
@@ -96139,12 +96139,12 @@ B.Hl=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
 B.Hn=A.a(s(["transcend ",B.h,"\n",B.h," 存储 ",10," \u2192 ",30]),t.b)
 B.dr=new A.DG(0,"U_RATE")
 B.Oo=new A.dA("Grow Forest",A.bjy(),A.bjz(),null,null,null,6,A.fr(),A.bjx(),A.fq(),null,null,"Grow Forest_perma","Grow Forest_perma",A.ft(),A.bjA(),A.fs(),null)
-B.c5=new A.bW(null,B.dr,6,A.bjw(),A.bjv(),A.bju(),null,B.Oo,"生长森林","Grow Forest",A.bjD(),A.bjC(),A.bjB(),null)
+B.c5=new A.bW(null,B.dr,6,A.bjw(),A.bjv(),A.bju(),null,B.Oo,"植树造林","Grow Forest",A.bjD(),A.bjC(),A.bjB(),null)
 B.Ol=new A.dA("Greater Reserves",A.bkl(),A.bkm(),B.c5,null,null,6,A.fr(),A.bkk(),A.fq(),null,null,"Greater Reserves_perma","Greater Reserves_perma",A.ft(),A.bkn(),A.fs(),null)
 B.dv=new A.bW(null,B.ds,6,A.bkj(),A.bki(),A.bkh(),null,B.Ol,"增加存储","Greater Reserves",A.bkq(),A.bkp(),A.bko(),null)
 B.zh=new A.DG(2,"U_PASSIVE")
 B.Ot=new A.dA("Passive Harvest",A.blu(),A.blv(),B.dv,null,null,6,A.fr(),A.blt(),A.fq(),null,null,"Passive Harvest_perma","Passive Harvest_perma",A.ft(),A.blw(),A.fs(),null)
-B.kH=new A.bW(16,B.zh,6,A.bls(),A.blr(),A.blq(),null,B.Ot,"被动收割","Passive Harvest",A.blz(),A.bly(),A.blx(),null)
+B.kH=new A.bW(16,B.zh,6,A.bls(),A.blr(),A.blq(),null,B.Ot,"被动砍伐","Passive Harvest",A.blz(),A.bly(),A.blx(),null)
 B.Oy=new A.dA("Sharpen Axe",A.bm3(),A.bm4(),B.dv,null,null,6,A.fr(),A.bm2(),A.fq(),null,null,"Sharpen Axe_perma","Sharpen Axe_perma",A.ft(),A.bm5(),A.fs(),null)
 B.kJ=new A.bW(null,null,6,A.bm1(),A.bm0(),A.bm_(),null,B.Oy,"打磨斧子","Sharpen Axe",A.bm8(),A.bm7(),A.bm6(),null)
 B.nd=A.a(s([B.c5,B.dv,B.kH,B.kJ]),t.K4)
@@ -96156,7 +96156,7 @@ B.af=new A.nc(4,"start")
 B.c4=new A.nc(5,"end")
 B.HI=A.a(s([B.dp,B.by,B.f,B.eM,B.af,B.c4]),A.ao("B<nc>"))
 B.HQ=A.a(s(["next at"]),t.b)
-B.HP=A.a(s(["40 ",B.h," bonus at ",B.l]),t.b)
+B.HP=A.a(s(["40 ",B.h," 加成当 ",B.l]),t.b)
 B.HO=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
 B.Z3=new A.nr(0,0)
 B.Z6=new A.nr(1,0.05)
@@ -96215,7 +96215,7 @@ B.f_=new A.fe(B.Cf,A.bgY(),!0,B.i,B.dr,"COLLECT_METAL","COLLECT_METAL",A.bgX(),A
 B.X0=new A.QK(null)
 B.jN=new A.hw(B.X0,A.bmJ(),null,"TREE OF LIFE","TREE OF LIFE",A.bmI(),A.bmH(),A.bmG(),null)
 B.Yl=new A.Rb(null)
-B.jO=new A.hw(B.Yl,A.bo9(),null,"VOLATILE FLAME","VOLATILE FLAME",A.bo8(),A.bo7(),A.bo6(),null)
+B.jO=new A.hw(B.Yl,A.bo9(),null,"不稳定的火焰","VOLATILE FLAME",A.bo8(),A.bo7(),A.bo6(),null)
 B.A2=new A.IJ(null)
 B.ha=new A.hw(B.A2,A.bgu(),A.bgt(),"AUTOMAGIC","AUTOMAGIC",A.bgs(),A.bgr(),A.bgq(),null)
 B.jd=A.a(s([B.c5,B.dv,B.kH,B.kJ,B.hI,B.dt,B.du,B.kR,B.hH,B.hG,B.kQ,B.cA,B.kL,B.eN,B.hJ,B.hF,B.kO,B.kK,B.hK,B.cH,B.eZ,B.cG,B.eY,B.cJ,B.eW,B.cK,B.f_,B.cI,B.jN,B.jO,B.ha,B.jQ,B.jP]),A.ao("B<kh>"))
@@ -96231,7 +96231,7 @@ B.a0=A.a(s([B.n,B.l,B.k,B.h,B.i,B.r,B.bf]),t.pU)
 B.ng=A.a(s([B.kO,B.kK,B.hK]),t.K4)
 B.IA=A.a(s([1,2,3,5,7]),t.t)
 B.IB=A.a(s(["达到 10 ",B.l]),t.b)
-B.IE=A.a(s(["automation unlocked"]),t.b)
+B.IE=A.a(s(["自动化已解锁"]),t.b)
 B.b8=new A.fj(0,"READY")
 B.bM=new A.fj(1,"SHOW_EARNED")
 B.bZ=new A.fj(2,"WOOD_PENALTY")
@@ -96423,7 +96423,7 @@ B.Kx=A.a(s([B.YT,B.YW,B.YU,B.YV]),A.ao("B<np>"))
 B.nA=A.a(s([B.u8,B.u9]),t.zQ)
 B.jh=A.a(s(["下一个剩余"]),t.b)
 B.Kz=A.a(s(["6 ",B.k," 和 0 ",B.l]),t.b)
-B.KA=A.a(s(["升级 生长森林"]),t.b)
+B.KA=A.a(s(["升级 植树造林"]),t.b)
 B.d4=new A.iG(0,"controlModifier")
 B.d5=new A.iG(1,"shiftModifier")
 B.d6=new A.iG(2,"altModifier")
