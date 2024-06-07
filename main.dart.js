@@ -56997,13 +56997,13 @@ $1(a){return a.V8(this.a)},
 $S:48}
 A.a33.prototype={
 $2(a,b){var s,r,q=t.y
-if(a.j($.aIm().$1(b),q))return"auto paused"
+if(a.j($.aIm().$1(b),q))return"自动暂停"
 s=$.bY()
 r=s.$ti.h("c<m.0,i>")
 if(a.j(new A.c(s,new A.a31(b),r),q))return"free auto"
 if(a.j(new A.c(s,new A.a32(b),r),q))return a.j($.aX5().$1(b),t.N)
-if($.iZ().N(0,b))return"auto up"
-else return"auto press"},
+if($.iZ().N(0,b))return"自动升级"
+else return"自动点击"},
 $S:190}
 A.a31.prototype={
 $1(a){return a.d.aU(0,0)&&B.b.q(a.r,this.a)},
