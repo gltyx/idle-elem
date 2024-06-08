@@ -12028,8 +12028,8 @@ beJ(a,b){return A.A(B.J8,B.f,2,a,!1)},
 be3(a){return a.j($.dg().$1(B.zl),t.y)},
 aDJ:function aDJ(a){this.a=a},
 aGn:function aGn(){},
-bbQ(a,b,c){if(a===0)return A.A([new A.e(A.o(1,B.k,!1),A.r(1),B.k).u(0,a+1)," free ",B.k],B.f,2,b,!1)
-return A.A([new A.e(A.o(1,B.k,!1),A.r(1),B.k).u(0,a)," \u2192 ",new A.e(A.o(1,B.k,!1),A.r(1),B.k).u(0,a+1)," free ",B.k],B.f,2,b,!1)},
+bbQ(a,b,c){if(a===0)return A.A([new A.e(A.o(1,B.k,!1),A.r(1),B.k).u(0,a+1)," 免费 ",B.k],B.f,2,b,!1)
+return A.A([new A.e(A.o(1,B.k,!1),A.r(1),B.k).u(0,a)," \u2192 ",new A.e(A.o(1,B.k,!1),A.r(1),B.k).u(0,a+1)," 免费 ",B.k],B.f,2,b,!1)},
 baC(a,b){var s=$.dJ(),r=t._g
 J.bd(a.t(0,s.gL(),r),new A.aDy(b))
 a.t(0,s.gL(),r).nZ()},
@@ -51328,7 +51328,7 @@ s=$.y0()
 r=t.y
 if(!b.j(s,r)){s=b.j($.aN8(),t.F)
 q=$.b7()
-return A.A(["达到 ",s.m6(b.j(new A.c(q,new A.ayR(),q.$ti.h("c<m.0,i>")),r))," ",B.l],B.f,2,A.aJh(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIr(),r)&&b.j(s,r)))return A.bI("BLESS RAINS",A.aJh(a).aC(p.e),null)
+return A.A(["达到 ",s.m6(b.j(new A.c(q,new A.ayR(),q.$ti.h("c<m.0,i>")),r))," ",B.l],B.f,2,A.aJh(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIr(),r)&&b.j(s,r)))return A.bI("祝福雨水",A.aJh(a).aC(p.e),null)
 return A.A(["+",p.f.F(0,1)," ",B.h],B.f,2,A.aJh(a).aC(p.e),!1)}}
 A.ayR.prototype={
 $1(a){return a.b},
@@ -51431,7 +51431,7 @@ s=$.y_()
 r=t.y
 if(!b.j(s,r)){s=b.j($.aN7(),t.F)
 q=$.b7()
-return A.A(["花费 ",s.m6(b.j(new A.c(q,new A.ayW(),q.$ti.h("c<m.0,i>")),r))," ",B.k],B.f,2,A.aJg(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIp(),r)&&b.j(s,r)))return A.bI("BLESS NATURE",A.aJg(a).aC(p.e),null)
+return A.A(["花费 ",s.m6(b.j(new A.c(q,new A.ayW(),q.$ti.h("c<m.0,i>")),r))," ",B.k],B.f,2,A.aJg(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIp(),r)&&b.j(s,r)))return A.bI("祝福自然",A.aJg(a).aC(p.e),null)
 return A.A(["+",p.f.F(0,1)," ",B.h],B.f,2,A.aJg(a).aC(p.e),!1)}}
 A.ayW.prototype={
 $1(a){return a.b},
@@ -53461,7 +53461,7 @@ a4(a,b){var s,r=this,q=" 通过声望解锁",p=A.mn(),o=A.a2(p).h("as<1>"),n=A.a
 if(n.length===0)B.b.C(n,B.n)
 s=A.bp(n,!0,t.C)
 B.b.D(s,B.h)
-p=A.a([B.D,A.bI("TRANSCENDANCE",A.HN(a),B.f),B.K],t.p)
+p=A.a([B.D,A.bI("超越",A.HN(a),B.f),B.K],t.p)
 if(s.length===0)p.push(A.A([n,q],B.f,2,r.ny(a),!1))
 if(s.length===0)p.push(A.A(B.JA,B.f,2,r.Jh(a).aC(B.tI),!1))
 if(s.length!==0)p.push(A.A(["+",5,"% ",s," 存储每 ",B.h],B.f,2,r.Jh(a),!1))
@@ -53558,8 +53558,8 @@ r.a=$.aM()
 p=p.h("c<m.0,e>")
 s=b.j(new A.c(q,new A.a9v(r,b),p),m)
 if(s.bu(0,10)){r.a=$.aIx()
-s=b.j(new A.c(q,new A.a9w(r,b),p),m)}q=A.bI("ENDURING FLOOD",A.HN(a),B.f)
-p=o<=0?B.m:A.A(["Gain ",B.c.Z(o*100),"% current ",B.r," every ",$.aIx().ja()],B.f,2,A.aMU(a),!1)
+s=b.j(new A.c(q,new A.a9w(r,b),p),m)}q=A.bI("持久洪水",A.HN(a),B.f)
+p=o<=0?B.m:A.A(["获得 ",B.c.Z(o*100),"% 当前 ",B.r," 每 ",$.aIx().ja()],B.f,2,A.aMU(a),!1)
 if(!(!s.l(0,$.ab())&&s.m6(!0)!=="0"))r=B.m
 else{n=A.Y(a).p2.w
 n=n==null?null:n.ju(A.bL(B.r),-2,-2)
@@ -53606,7 +53606,7 @@ if(!$.by().y)return B.m
 s=A.rj(a).r
 s.toString
 s=A.l2(r,r,B.fr,r,r,r,r,r,r,r,r,new A.Z(0,s),r,r,new A.cN(A.j2(12),B.A),r,r,r,r)
-return new A.dm(B.mO,A.l1(A.bI("fill",A.rj(a).aC(B.u),r),new A.azC(b),s),r)}}
+return new A.dm(B.mO,A.l1(A.bI("填充",A.rj(a).aC(B.u),r),new A.azC(b),s),r)}}
 A.azC.prototype={
 $0(){return this.a.t(0,$.ai().gL(),t.O).pj(B.r)},
 $S:0}
@@ -53628,7 +53628,7 @@ return"1 每 "+A.jC(1/r,2,b.j(new A.c(q,new A.aqP(),q.$ti.h("c<m.0,i>")),s),!1)+
 q=$.b7()
 return A.jC(r,2,b.j(new A.c(q,new A.aqQ(),q.$ti.h("c<m.0,i>")),s),!1)+"/秒"}},
 a4(a,b){var s,r,q=$.y9(),p=t.F,o=b.j(new A.c(q,new A.aqT(),q.$ti.h("c<m.0,e>")),p),n=b.j($.aIz(),p)
-p=A.bI("Tree of Life".toUpperCase(),A.HN(a),B.f)
+p=A.bI("生命之树".toUpperCase(),A.HN(a),B.f)
 q=$.ab()
 if(o.bD(0,q))s=B.m
 else{s=this.abu(o,b)
@@ -57000,7 +57000,7 @@ $2(a,b){var s,r,q=t.y
 if(a.j($.aIm().$1(b),q))return"自动暂停"
 s=$.bY()
 r=s.$ti.h("c<m.0,i>")
-if(a.j(new A.c(s,new A.a31(b),r),q))return"free auto"
+if(a.j(new A.c(s,new A.a31(b),r),q))return"免费自动"
 if(a.j(new A.c(s,new A.a32(b),r),q))return a.j($.aX5().$1(b),t.N)
 if($.iZ().N(0,b))return"自动升级"
 else return"自动点击"},
