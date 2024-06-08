@@ -10980,7 +10980,7 @@ case 3:return B.i
 case 4:return B.r
 case 5:return B.h
 default:return null}},
-b58(a){switch(a.a){case 8:return"THANKS FOR\nPLAYING!"
+b58(a){switch(a.a){case 8:return"感谢您玩\n本游戏!"
 default:return a.b}},
 aRo(a){var s
 if(A.dZ(a)!=null){s=A.dZ(a)
@@ -52239,9 +52239,9 @@ s=$.tR()
 r=s.$ti
 q=r.h("c<m.0,p>")
 p=t.N
-m.push(A.A(["You completed Idle Elemental in ",b.j(new A.c(s,new A.a6Z(),q),p)],B.f,2,l,!1))
-m.push(A.A(["(",b.j(new A.c(s,new A.a7_(),q),p)," in-game time)\n"],B.f,2,l,!1))
-m.push(A.A(["Your lucky element is ",b.j(new A.c(s,new A.a70(),r.h("c<m.0,bo>")),t.C),"!"],B.f,2,l.cF(4),!1))
+m.push(A.A(["你通关 Idle Elemental 用时 ",b.j(new A.c(s,new A.a6Z(),q),p)],B.f,2,l,!1))
+m.push(A.A(["(",b.j(new A.c(s,new A.a7_(),q),p)," 游戏内时间)\n"],B.f,2,l,!1))
+m.push(A.A(["你的幸运元素是 ",b.j(new A.c(s,new A.a70(),r.h("c<m.0,bo>")),t.C),"!"],B.f,2,l.cF(4),!1))
 m.push(B.l8)
 m.push(A.A(B.JW,B.af,2,l.cF(-2),!1))
 m.push(B.S7)
@@ -96279,7 +96279,7 @@ B.J4=A.a(s(["制作"]),t.b)
 B.J5=A.a(s(["需要 木头"]),t.b)
 B.J6=A.a(s(["更积极的增量","\n点击或按下操作可获得进展","\n并根据主动游戏进行数据平衡"]),t.b)
 B.J8=A.a(s(["50 ",B.h," 奖励剩余 ",B.n]),t.b)
-B.J9=A.a(s(["超越 ",B.i,"\n",B.h," store ",1000," \u2192 ",6000]),t.b)
+B.J9=A.a(s(["超越 ",B.i,"\n",B.h," 存储 ",1000," \u2192 ",6000]),t.b)
 B.Ja=A.a(s(["一片焦土"]),t.b)
 B.Jb=A.a(s(["达到 稳定燃烧 等级 26"]),t.b)
 B.Jc=A.a(s(["达到 300 ",B.h]),t.b)
@@ -96345,7 +96345,7 @@ B.Gf=new A.j9(7)
 B.mW=new A.j9(8)
 B.ns=A.a(s([B.Gc,B.Gd,B.Ge,B.Q,B.ah,B.fz,B.bg,B.Gf,B.mW]),A.ao("B<j9>"))
 B.JP=A.a(s(["达到 2 ",B.n]),t.b)
-B.JS=A.a(s(["超越 ",B.n,"\n",B.h," store 30 \u2192 75"]),t.b)
+B.JS=A.a(s(["超越 ",B.n,"\n",B.h," 存储 30 \u2192 75"]),t.b)
 B.JU=A.a(s(["更传统的放置","\n大型升级间隔更远","\n并且离线进度已启用"]),t.b)
 B.JV=A.a(s(["click","scroll"]),t.s)
 B.JW=A.a(s(["    感谢您玩 Idle Elemental!\n","你能来到这里对我来说意义重大.\n","希望你玩得开心 :)\n","    - Tetr4"]),t.b)
@@ -96489,11 +96489,11 @@ B.nI=A.a(s([B.cI]),t._I)
 B.L5=A.a(s(["这可以通过重新启动或完成游戏来改变"]),t.b)
 B.e9=A.a(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
 B.L8=A.a(s(["解锁 ",B.n," passive"]),t.b)
-B.La=A.a(s([B.bf," get Void DLC ",B.bf,"\n(coming soon)"]),t.b)
+B.La=A.a(s([B.bf," 获取虚空 DLC ",B.bf,"\n(敬请期待)"]),t.b)
 B.Lc=A.a(s(["20 ",B.h," bonus at ",B.k]),t.b)
 B.jk=A.a(s([B.n,B.l,B.k,B.i,B.r,B.h]),t.pU)
 B.Le=A.a(s(["达到 ",1e7," ",B.r]),t.b)
-B.Lf=A.a(s(["超越 ",B.r,"\n",B.h," store ",6000," \u2192 ",1e5]),t.b)
+B.Lf=A.a(s(["超越 ",B.r,"\n",B.h," 存储 ",6000," \u2192 ",1e5]),t.b)
 B.z=new A.AI(0,"ignored")
 B.fV=new A.k(32)
 B.b7=new A.k(4294967304)
