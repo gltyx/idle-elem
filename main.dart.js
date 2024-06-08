@@ -50730,7 +50730,7 @@ q=t.y
 if(!b.j(r,q)){r=$.b7()
 q=s.m6(b.j(new A.c(r,new A.ayV(),r.$ti.h("c<m.0,i>")),q))
 s=!s.l(0,$.aM())?"S":""
-return A.A([q," MORE LEVEL",s],B.f,2,A.aJf(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIn(),q)&&b.j(r,q)))return A.bI("祝福之地",A.aJf(a).aC(p.e),null)
+return A.A([q," 更高等级",s],B.f,2,A.aJf(a).cF(-4).aC(A.cZ(p.e,B.u,0.125)),!1)}if(!(b.j($.aIn(),q)&&b.j(r,q)))return A.bI("祝福之地",A.aJf(a).aC(p.e),null)
 return A.A(["+",p.f.F(0,1)," ",B.h],B.f,2,A.aJf(a).aC(p.e),!1)}}
 A.ayV.prototype={
 $1(a){return a.b},
@@ -96398,7 +96398,7 @@ B.zs=new A.e9(18,"Unknown")
 B.Ko=A.a(s([B.kU,B.dz,B.aG,B.hN,B.hO,B.kY,B.eQ,B.Ys,B.eR,B.eS,B.bn,B.kV,B.kW,B.eO,B.bQ,B.hM,B.eP,B.kX,B.zs]),A.ao("B<e9>"))
 B.u2=new A.ev(0,"木")
 B.u3=new A.ev(1,"火")
-B.u4=new A.ev(2,"地")
+B.u4=new A.ev(2,"土")
 B.u5=new A.ev(3,"金")
 B.u6=new A.ev(4,"水")
 B.u7=new A.ev(5,"气")
