@@ -12124,7 +12124,7 @@ aFg:function aFg(){},
 aUD(a){return A.a([new A.e(A.o(15,B.n,!1),A.r(15),B.n).aO(A.aET(a).aa(0)-4).u(0,15e7)],t.W)},
 aET(a){var s=(4+B.e.a6(a,4))*Math.pow(2,B.e.Y(a,4))
 return new A.e(A.o(s,B.k,!1),A.r(s),B.k)},
-bbt(a,b,c){return A.A([B.k," store ",A.aET(a)," \u2192 ",A.aET(a+1)],B.f,2,b,!1)},
+bbt(a,b,c){return A.A([B.k," 存储 ",A.aET(a)," \u2192 ",A.aET(a+1)],B.f,2,b,!1)},
 baf(a,b){J.bd(a.t(0,$.ai().gL(),t.O),new A.aDE(b))},
 bfE(a){var s=$.ai()
 return a.j(new A.c(s,new A.aGb(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12222,7 +12222,7 @@ aUs(a){var s=null,r=A.aHE(a).u(0,80).u(0,new A.e(A.o(1.25,s,!1),A.r(1.25),s).aO(
 r=r.u(0,(a&1)===1?1.5:1)
 r=r.u(0,a<32?1:new A.e(A.o(0.85,s,!1),A.r(0.85),s).aO(B.e.Y(a-32,4)))
 return A.a([new A.e(A.o(r.a,B.n,!1),r.b,B.n)],t.W)},
-bbw(a,b,c){return A.A([B.l," store ",A.aHE(a)," \u2192 ",A.aHE(a+1)],B.f,2,b,!1)},
+bbw(a,b,c){return A.A([B.l," 存储 ",A.aHE(a)," \u2192 ",A.aHE(a+1)],B.f,2,b,!1)},
 bai(a,b){J.bd(a.t(0,$.ai().gL(),t.O),new A.aDL(b))},
 bfH(a){var s=$.ai()
 return a.j(new A.c(s,new A.aGg(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12358,7 +12358,7 @@ a0D(a){var s=new A.e(A.o(2,B.i,!1),A.r(2),B.i).aO(1+B.e.Y(a,2))
 return s.u(0,B.e.a6(a,2)===1?1.5:1).u(0,10)},
 aUB(a){var s=1e21,r=null,q=A.a0D(a).a2(0,10).V(0,2).aa(0)
 return A.a([new A.e(A.o(s,B.n,!1),A.r(s),B.n).u(0,new A.e(A.o(1e4,r,!1),A.r(1e4),r).aO(B.c.Y(q,3))).u(0,new A.e(A.o(10,r,!1),A.r(10),r).aO(B.c.a6(q,3))),new A.e(A.o(13.5,B.k,!1),A.r(13.5),B.k).F(0,q*(1+A.a0D(a).cL(0,160).aa(0)/4))],t.W)},
-bbA(a,b,c){return A.A([B.i," store ",A.a0D(a)," \u2192 ",A.a0D(a+1)],B.f,2,b,!1)},
+bbA(a,b,c){return A.A([B.i," 存储 ",A.a0D(a)," \u2192 ",A.a0D(a+1)],B.f,2,b,!1)},
 bam(a,b){J.bd(a.t(0,$.ai().gL(),t.O),new A.aDC(b))},
 bfL(a){var s=$.ai()
 return a.j(new A.c(s,new A.aG8(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12574,7 +12574,7 @@ aF0:function aF0(){},
 aHF(a){return new A.e(A.o(1e4,B.r,!1),A.r(1e4),B.r).u(0,new A.e(A.o(10,null,!1),A.r(10),null).aO(a))},
 aM0(a){var s=1e24,r=A.aHF(a),q=new A.e(A.o(s,B.n,!1),A.r(s),B.n).u(0,new A.e(A.o(1000,null,!1),A.r(1000),null).aO(B.e.Y(a,2)))
 return A.a([r,q.u(0,B.e.a6(a,2)===1?60:1)],t.W)},
-bbG(a,b,c){return A.A([B.r," store ",A.aHF(a)," \u2192 ",A.aHF(a+1)],B.f,2,b,!1)},
+bbG(a,b,c){return A.A([B.r," 存储 ",A.aHF(a)," \u2192 ",A.aHF(a+1)],B.f,2,b,!1)},
 bas(a,b){J.bd(a.t(0,$.ai().gL(),t.O),new A.aDx(b))},
 bfQ(a){var s=$.ai()
 return a.j(new A.c(s,new A.aG4(),s.$ti.h("c<m.0,i>")),t.y)},
@@ -12671,7 +12671,7 @@ aHG(a){var s=B.IA[B.e.a6(a,5)]
 return new A.e(A.o(s,B.n,!1),A.r(s),B.n).u(0,new A.e(A.o(10,null,!1),A.r(10),null).aO(1+B.e.Y(a,5)))},
 aUw(a){var s=A.aHG(a).u(0,new A.e(A.o(0.6,null,!1),A.r(0.6),null))
 return A.a([new A.e(A.o(s.a,B.n,!1),s.b,B.n)],t.W)},
-bbJ(a,b,c){return A.A([B.n," store ",A.aHG(a)," \u2192 ",A.aHG(a+1)],B.f,2,b,!1)},
+bbJ(a,b,c){return A.A([B.n," 存储 ",A.aHG(a)," \u2192 ",A.aHG(a+1)],B.f,2,b,!1)},
 bav(a,b){J.bd(a.t(0,$.ai().gL(),t.O),new A.aDP(b))},
 bfT(a){var s
 if(A.aVs(a)){s=$.ai()
@@ -53440,11 +53440,11 @@ if(r==null)r=B.y
 r=A.A(["Soul Bond".toUpperCase()],B.c4,2,r,!1)
 q=["+",10,"% "]
 B.b.P(q,p)
-q.push(" per ")
-q.push(s?"prestiged ":"")
+q.push(" 每 ")
+q.push(s?"声望 ":"")
 q.push(B.h)
 q=A.A(q,B.f,2,this.Ji(a,s),!1)
-return A.bA(A.a([B.D,r,B.K,q,!s?B.m:A.A(["Prestiging resets all progress".toUpperCase()],B.f,2,this.Ji(a,!0).fX(B.DC,2),!1),B.K],t.p),B.p,B.v,B.o)},
+return A.bA(A.a([B.D,r,B.K,q,!s?B.m:A.A(["声望会重置所有游戏进度".toUpperCase()],B.f,2,this.Ji(a,!0).fX(B.DC,2),!1),B.K],t.p),B.p,B.v,B.o)},
 Ji(a,b){var s=A.Y(a).p2.w
 if(s==null)s=null
 else s=s.lL(b?-2:0,-2)
@@ -53457,14 +53457,14 @@ A.anY.prototype={
 $1(a){return a.b[this.a.a].aU(0,0)},
 $S:18}
 A.QE.prototype={
-a4(a,b){var s,r=this,q=" unlocked on Prestige",p=A.mn(),o=A.a2(p).h("as<1>"),n=A.a3(new A.as(p,new A.aqK(b),o),!0,o.h("q.E"))
+a4(a,b){var s,r=this,q=" 声望时解锁",p=A.mn(),o=A.a2(p).h("as<1>"),n=A.a3(new A.as(p,new A.aqK(b),o),!0,o.h("q.E"))
 if(n.length===0)B.b.C(n,B.n)
 s=A.bp(n,!0,t.C)
 B.b.D(s,B.h)
 p=A.a([B.D,A.bI("TRANSCENDANCE",A.HN(a),B.f),B.K],t.p)
 if(s.length===0)p.push(A.A([n,q],B.f,2,r.ny(a),!1))
 if(s.length===0)p.push(A.A(B.JA,B.f,2,r.Jh(a).aC(B.tI),!1))
-if(s.length!==0)p.push(A.A(["+",5,"% ",s," store per ",B.h],B.f,2,r.Jh(a),!1))
+if(s.length!==0)p.push(A.A(["+",5,"% ",s," 存储 每 ",B.h],B.f,2,r.Jh(a),!1))
 if(s.length!==0)p.push(A.A([n,q],B.f,2,r.ny(a),!1))
 p.push(B.K)
 return A.bA(p,B.p,B.v,B.o)},
@@ -55059,7 +55059,7 @@ A.agM.prototype={
 $3(a,b,c){var s=this.a
 if(s.nF(c))return B.m
 s=s.dx
-return A.A(["start lv. ",s.$1(a)," \u2192 ",s.$1(a+1)],B.f,2,b,!1)},
+return A.A(["初始等级 ",s.$1(a)," \u2192 ",s.$1(a+1)],B.f,2,b,!1)},
 $C:"$3",
 $R:3,
 $S:9}
@@ -56997,13 +56997,13 @@ $1(a){return a.V8(this.a)},
 $S:48}
 A.a33.prototype={
 $2(a,b){var s,r,q=t.y
-if(a.j($.aIm().$1(b),q))return"auto paused"
+if(a.j($.aIm().$1(b),q))return"自动暂停"
 s=$.bY()
 r=s.$ti.h("c<m.0,i>")
 if(a.j(new A.c(s,new A.a31(b),r),q))return"free auto"
 if(a.j(new A.c(s,new A.a32(b),r),q))return a.j($.aX5().$1(b),t.N)
-if($.iZ().N(0,b))return"auto up"
-else return"auto press"},
+if($.iZ().N(0,b))return"自动升级"
+else return"自动点按"},
 $S:190}
 A.a31.prototype={
 $1(a){return a.d.aU(0,0)&&B.b.q(a.r,this.a)},
@@ -96100,21 +96100,21 @@ B.na=new A.c5(6,"EX")
 B.jc=new A.c5(7,"QU")
 B.b6=new A.c5(8,"AL")
 B.fQ=new A.c5(9,"PR")
-B.az=new A.ev(6,"SETTINGS")
+B.az=new A.ev(6,"设置")
 B.H5=new A.r1(B.az,null)
-B.aY=new A.ev(7,"STATS")
+B.aY=new A.ev(7,"统计")
 B.H6=new A.r1(B.aY,null)
-B.c0=new A.ev(8,"COMPLETION")
+B.c0=new A.ev(8,"已完成")
 B.H7=new A.r1(B.c0,null)
 B.H8=new A.AE(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Hb=A.a(s(["达到 Grow Forest lv. 10"]),t.b)
-B.H9=A.a(s(["Upgrade ? ? ?"]),t.b)
-B.Ha=A.a(s(["transcend ",B.k,"\n",B.h," store 160 \u2192 ",1000]),t.b)
+B.H9=A.a(s(["升级 ? ? ?"]),t.b)
+B.Ha=A.a(s(["超越 ",B.k,"\n",B.h," 存储 160 \u2192 ",1000]),t.b)
 B.nb=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
 B.Hc=A.a(s([0,1]),t.u)
 B.Hd=A.a(s([0,6,12,18]),t.t)
 B.He=A.a(s(["达到 ",5e18," ",B.l]),t.b)
-B.Hf=A.a(s(["transcend ",B.l,"\n",B.h," store 75 \u2192 160"]),t.b)
+B.Hf=A.a(s(["超越 ",B.l,"\n",B.h," 存储 75 \u2192 160"]),t.b)
 B.Hg=A.a(s([239,191,189]),t.t)
 B.Hj=A.a(s([B.h," AT"]),t.b)
 B.Oj=new A.dA("Biomechanics",A.bjS(),A.bjT(),null,null,null,6,A.fr(),A.bjR(),A.fq(),null,null,"Biomechanics_perma","Biomechanics_perma",A.ft(),A.bjU(),A.fs(),null)
@@ -96136,7 +96136,7 @@ B.NR=new A.N3(null)
 B.jP=new A.hw(B.NR,A.bmU(),null,"OCEAN RAIN","OCEAN RAIN",A.bmT(),A.bmS(),A.bmR(),null)
 B.Hm=A.a(s([B.jQ,B.jP]),t.zQ)
 B.Hl=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
-B.Hn=A.a(s(["transcend ",B.h,"\n",B.h," store ",10," \u2192 ",30]),t.b)
+B.Hn=A.a(s(["超越 ",B.h,"\n",B.h," 存储 ",10," \u2192 ",30]),t.b)
 B.dr=new A.DG(0,"U_RATE")
 B.Oo=new A.dA("Grow Forest",A.bjy(),A.bjz(),null,null,null,6,A.fr(),A.bjx(),A.fq(),null,null,"Grow Forest_perma","Grow Forest_perma",A.ft(),A.bjA(),A.fs(),null)
 B.c5=new A.bW(null,B.dr,6,A.bjw(),A.bjv(),A.bju(),null,B.Oo,"Grow Forest","Grow Forest",A.bjD(),A.bjC(),A.bjB(),null)
@@ -96240,8 +96240,8 @@ B.IF=A.a(s([B.b8,B.bM,B.bZ,B.c_]),A.ao("B<fj>"))
 B.II=A.a(s(["达到 4 ",B.k]),t.b)
 B.nh=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.e7=A.a(s([B.cM,B.c6,B.f2,B.f3,B.i0]),t.QP)
-B.IO=A.a(s(["prestige under 2 min"]),t.b)
-B.IP=A.a(s(["prestige under 5 min"]),t.b)
+B.IO=A.a(s(["2 分钟内声望"]),t.b)
+B.IP=A.a(s(["5 分钟内声望"]),t.b)
 B.Sf=new A.PS(null)
 B.u8=new A.hw(B.Sf,A.bnq(),null,"SOUL BOND","SOUL BOND",A.bnp(),A.bno(),A.bnn(),null)
 B.WY=new A.QE(null)
@@ -96281,18 +96281,18 @@ B.J6=A.a(s(["更主动的增量","\n单击或按下操作将产生进度","\n并
 B.J8=A.a(s(["50 ",B.h," bonus in ",B.n]),t.b)
 B.J9=A.a(s(["超越 ",B.i,"\n",B.h," 存储 ",1000," \u2192 ",6000]),t.b)
 B.Ja=A.a(s(["焦土"]),t.b)
-B.Jb=A.a(s(["达到 Steady Burn lv. 26"]),t.b)
+B.Jb=A.a(s(["达到 Steady Burn 等级 26"]),t.b)
 B.Jc=A.a(s(["达到 300 ",B.h]),t.b)
 B.Jd=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.nk=A.a(s(["","k","m","b","t","qu","qt","sx","sp","o","n","d","ud","dd","td","qud","qtd","sxd","spd","od","nd"]),t.s)
-B.Jj=A.a(s(["PASSIVE"]),t.b)
-B.Jl=A.a(s(["PRESTIGE"]),t.b)
-B.Jn=A.a(s(["30 ",B.h," bonus at ",B.i]),t.b)
-B.Jp=A.a(s(["WELCOME TO"]),t.b)
-B.Jo=A.a(s(["free auto next prestige"]),t.b)
+B.Jj=A.a(s(["被动"]),t.b)
+B.Jl=A.a(s(["声望"]),t.b)
+B.Jn=A.a(s(["30 ",B.h," 奖励在 ",B.i]),t.b)
+B.Jp=A.a(s(["欢迎来到"]),t.b)
+B.Jo=A.a(s(["免费自动在下一次声望"]),t.b)
 B.Jq=A.a(s(["\u2190 export \u2192"]),t.b)
 B.nl=A.a(s(["达到 10000 ",B.r]),t.b)
-B.Ju=A.a(s(["START"]),t.b)
+B.Ju=A.a(s(["开始"]),t.b)
 B.SV=new A.D8(0,"left")
 B.SW=new A.D8(1,"right")
 B.Jv=A.a(s([B.SV,B.SW]),A.ao("B<D8>"))
@@ -96307,7 +96307,7 @@ B.Jy=A.a(s(["12 ",B.k," | no Chop Wood"]),t.b)
 B.nm=A.a(s([B.cH,B.eZ]),t._I)
 B.nn=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
 B.JA=A.a(s(["?  ?  ?"]),t.b)
-B.JB=A.a(s(["WARMING"]),t.b)
+B.JB=A.a(s(["警告"]),t.b)
 B.kN=new A.bW(1,null,6,A.biE(),A.biD(),A.biC(),B.n,null,"Blessed Roots","Blessed Roots",A.biI(),A.biH(),A.biG(),A.biF())
 B.kG=new A.bW(1,null,6,A.biL(),A.biK(),A.biJ(),B.l,null,"Eternal Burn","Eternal Burn",A.biP(),A.biO(),A.biN(),A.biM())
 B.kP=new A.bW(1,null,6,A.biS(),A.biR(),A.biQ(),B.k,null,"Molten Core","Molten Core",A.biW(),A.biV(),A.biU(),A.biT())
@@ -96331,9 +96331,9 @@ B.WS=new A.nb("all",null,null,null,null)
 B.AA=new A.j3(2,B.WS,t.lM)
 B.JJ=A.a(s([B.lv,B.AD,B.AA]),t.OV)
 B.no=A.a(s([B.eX]),t._I)
-B.JK=A.a(s(["Prestige under 20 min"]),t.b)
-B.JM=A.a(s(["FIRE FULL"]),t.b)
-B.JN=A.a(s(["enable offline progress"]),t.b)
+B.JK=A.a(s(["20 分钟内声望"]),t.b)
+B.JM=A.a(s(["火 已满"]),t.b)
+B.JN=A.a(s(["启用离线进度"]),t.b)
 B.np=A.a(s([B.hI,B.dt,B.du,B.kR]),t.K4)
 B.nq=A.a(s([B.cJ,B.eW]),t._I)
 B.nr=A.a(s([B.jO]),t.zQ)
@@ -96345,12 +96345,12 @@ B.Gf=new A.j9(7)
 B.mW=new A.j9(8)
 B.ns=A.a(s([B.Gc,B.Gd,B.Ge,B.Q,B.ah,B.fz,B.bg,B.Gf,B.mW]),A.ao("B<j9>"))
 B.JP=A.a(s(["达到 2 ",B.n]),t.b)
-B.JS=A.a(s(["transcend ",B.n,"\n",B.h," store 30 \u2192 75"]),t.b)
-B.JU=A.a(s(["A more traditional idle","\nbig upgrades are spaced farther apart","\nand offline progress is enabled"]),t.b)
-B.JV=A.a(s(["click","scroll"]),t.s)
-B.JW=A.a(s(["    Thank you for playing Idle Elemental!\n","It means a ton to me that you've made it here.\n","I hope you've enjoyed the ride :)\n","    - Tetr4"]),t.b)
+B.JS=A.a(s(["超越 ",B.n,"\n",B.h," 存储 30 \u2192 75"]),t.b)
+B.JU=A.a(s(["一款更传统的放置","\n大型升级间隔更远","\n并且离线进度已启用"]),t.b)
+B.JV=A.a(s(["点击","滚动"]),t.s)
+B.JW=A.a(s(["    感谢你玩 Idle Elemental!\n","您能来到这里，对我来说意义重大。\n","希望你玩得开心 :)\n","    - Tetr4"]),t.b)
 B.JY=A.a(s(["达到 ",25e22," ",B.n]),t.b)
-B.K7=A.a(s(["All upgrades increase ",B.r," rate"]),t.b)
+B.K7=A.a(s(["所有升级增加 ",B.r," 速率"]),t.b)
 B.K8=A.a(s(["emptiness"]),t.b)
 B.Kg=A.a(s([]),t.QP)
 B.K9=A.a(s([]),t.sq)
@@ -96374,8 +96374,8 @@ B.nu=A.a(s([]),t.t)
 B.d_=A.a(s([]),t.b)
 B.Kh=A.a(s([]),t.iG)
 B.Kl=A.a(s([]),t._m)
-B.Km=A.a(s(["more chops"]),t.b)
-B.Kn=A.a(s(["EARTH FULL"]),t.b)
+B.Km=A.a(s(["更多砍伐"]),t.b)
+B.Kn=A.a(s(["土 已满"]),t.b)
 B.kU=new A.e9(0,"DoubleQuote")
 B.dz=new A.e9(1,"SingleQuote")
 B.aG=new A.e9(2,"HebrewLetter")
@@ -96454,23 +96454,23 @@ B.C4=new A.u7(1,"full")
 B.C5=new A.u7(2,"chromium")
 B.KF=A.a(s([B.C3,B.C4,B.C5]),A.ao("B<u7>"))
 B.nE=A.a(s([B.jN]),t.zQ)
-B.KG=A.a(s(["music"]),t.b)
+B.KG=A.a(s(["音乐"]),t.b)
 B.KH=A.a(s(["达到 5 ",B.l]),t.b)
 B.KI=A.a(s(["达到 75 ",B.h]),t.b)
-B.KJ=A.a(s(["Make ",20," ",B.i]),t.b)
+B.KJ=A.a(s(["制作 ",20," ",B.i]),t.b)
 B.WQ=new A.nb("pulse",null,null,null,null)
 B.AC=new A.j3(1,B.WQ,t.lM)
 B.WR=new A.nb("flash",null,null,null,null)
 B.AB=new A.j3(2,B.WR,t.lM)
 B.KK=A.a(s([B.lv,B.AC,B.AB]),t.OV)
-B.KM=A.a(s(["prestige under 10 min"]),t.b)
-B.KN=A.a(s(["prestige under 30 min"]),t.b)
-B.KL=A.a(s(["upgrade ",B.l," action"]),t.b)
+B.KM=A.a(s(["10 分钟内声望"]),t.b)
+B.KN=A.a(s(["30 分钟内声望"]),t.b)
+B.KL=A.a(s(["升级 ",B.l," 动作"]),t.b)
 B.KO=A.a(s([B.f7,B.cP,B.f8,B.lu,B.bF]),A.ao("B<fP>"))
 B.fU=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
-B.KP=A.a(s(["16 ",B.k," | no actions"]),t.b)
+B.KP=A.a(s(["16 ",B.k," | 无动作"]),t.b)
 B.KQ=A.a(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.u)
-B.KR=A.a(s(["\u2192 import \u2190"]),t.b)
+B.KR=A.a(s(["\u2192 导入 \u2190"]),t.b)
 B.KS=A.a(s(["达到 ",120," ",B.i]),t.b)
 B.KT=A.a(s([B.ha]),t.zQ)
 B.e8=A.a(s([B.c5,B.dv,B.kH,B.kJ,B.hI,B.dt,B.du,B.kR,B.hH,B.hG,B.kQ,B.cA,B.kL,B.eN,B.hJ,B.hF,B.kO,B.kK,B.hK]),t.K4)
@@ -96478,22 +96478,22 @@ B.eJ=new A.fb(1,"fuchsia")
 B.eK=new A.fb(3,"linux")
 B.eL=new A.fb(5,"windows")
 B.KU=A.a(s([B.bO,B.eJ,B.bP,B.eK,B.dn,B.eL]),A.ao("B<fb>"))
-B.KV=A.a(s(["CHOP WOOD"]),t.b)
-B.KX=A.a(s(["Automate everything"]),t.b)
+B.KV=A.a(s(["砍木头"]),t.b)
+B.KX=A.a(s(["全部自动化"]),t.b)
 B.jj=A.a(s([!0,!1]),t.HZ)
 B.KZ=A.a(s(["[",1,"s]"]),t.b)
 B.L_=A.a(s(["[",5,"s]"]),t.b)
 B.nG=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.u)
 B.nH=A.a(s([B.hH,B.hG,B.kQ]),t.K4)
 B.nI=A.a(s([B.cI]),t._I)
-B.L5=A.a(s(["This can be changed by restarting or completing the game"]),t.b)
+B.L5=A.a(s(["这可以通过重新启动或完成游戏来改变"]),t.b)
 B.e9=A.a(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
-B.L8=A.a(s(["unlock ",B.n," passive"]),t.b)
-B.La=A.a(s([B.bf," get Void DLC ",B.bf,"\n(coming soon)"]),t.b)
+B.L8=A.a(s(["解锁 ",B.n," 被动的"]),t.b)
+B.La=A.a(s([B.bf," 获取 虚空 DLC ",B.bf,"\n(敬请期待)"]),t.b)
 B.Lc=A.a(s(["20 ",B.h," bonus at ",B.k]),t.b)
 B.jk=A.a(s([B.n,B.l,B.k,B.i,B.r,B.h]),t.pU)
 B.Le=A.a(s(["达到 ",1e7," ",B.r]),t.b)
-B.Lf=A.a(s(["transcend ",B.r,"\n",B.h," store ",6000," \u2192 ",1e5]),t.b)
+B.Lf=A.a(s(["超越 ",B.r,"\n",B.h," 存储 ",6000," \u2192 ",1e5]),t.b)
 B.z=new A.AI(0,"ignored")
 B.fV=new A.k(32)
 B.b7=new A.k(4294967304)
